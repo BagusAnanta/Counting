@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/Num_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/defaultval"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Tambah_button"
+        android:layout_width="240dp"
+        android:layout_height="77dp"
+        android:layout_below="@id/Num_count"
+        android:layout_marginStart="85dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="25dp"
+        android:text="Tambah" />
+
+
+    <Button
+        android:id="@+id/Hapus_button"
+        android:layout_width="240dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginEnd="86dp"
+        android:layout_below="@id/Tambah_button"
+        android:text="Hapus"/>
+
+</RelativeLayout>
